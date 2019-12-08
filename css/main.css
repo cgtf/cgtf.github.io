@@ -450,6 +450,11 @@ section h1 {
     .member-list-page ul.board-members li.member-container {
       width: 100%;
       margin: 2rem 0; }
+  .member-list-page .member-table-container table > tbody > tr .name-en {
+    display: none; }
+  .member-list-page .member-table-container table > tbody > tr td {
+    padding-left: 0.5rem;
+    font-size: 0.85rem; }
   .article-list-page ul li {
     display: block; }
     .article-list-page ul li img {
