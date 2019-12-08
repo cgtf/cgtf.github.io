@@ -445,6 +445,11 @@ section h1 {
     .members-section ul li.member-container {
       width: 100%;
       margin-top: 2rem; }
+  .member-list-page ul.board-members {
+    display: block; }
+    .member-list-page ul.board-members li.member-container {
+      width: 100%;
+      margin: 2rem 0; }
   .article-list-page ul li {
     display: block; }
     .article-list-page ul li img {
