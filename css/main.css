@@ -79,7 +79,7 @@ footer {
       footer .footer-container .logo img {
         height: 4.5rem; }
 
-body > span.shape-1 {
+body .shapes span.shape-1 {
   background: center/contain no-repeat url("/img/shape_1.svg");
   position: absolute;
   left: 30%;
@@ -89,7 +89,7 @@ body > span.shape-1 {
   content: "";
   z-index: 1; }
 
-body > span.shape-2 {
+body .shapes span.shape-2 {
   background: center/contain no-repeat url("/img/shape_2.svg");
   position: absolute;
   left: 19%;
@@ -99,7 +99,7 @@ body > span.shape-2 {
   content: "";
   z-index: 1; }
 
-body > span.shape-3 {
+body .shapes span.shape-3 {
   background: center/contain no-repeat url("/img/shape_3.svg");
   position: absolute;
   right: -15vw;
@@ -416,6 +416,33 @@ section h1 {
     margin-left: 2rem; }
 
 @media (max-width: 768px) {
+  body .shapes {
+    position: absolute;
+    height: 300vw;
+    width: 100vw;
+    top: 0;
+    overflow-x: hidden; }
+    body .shapes span {
+      content: "";
+      position: absolute; }
+    body .shapes span.shape-1 {
+      background: center/contain no-repeat url(/img/shape_1.svg);
+      left: 70%;
+      top: 25rem;
+      width: 52vw;
+      height: 65vw; }
+    body .shapes span.shape-2 {
+      background: center/contain no-repeat url(/img/shape_2.svg);
+      left: -3em;
+      top: 12rem;
+      width: 90vw;
+      height: 90vw; }
+    body .shapes span.shape-3 {
+      background: center/contain no-repeat url(/img/shape_3.svg);
+      right: -30vw;
+      top: 170vw;
+      width: 80vw;
+      height: 102vw; }
   .jumbotron {
     display: block;
     margin-top: 1rem; }
