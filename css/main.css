@@ -34,13 +34,15 @@ footer::before {
   bottom: 7vw;
   width: 40vw;
   height: 40vw;
-  content: ""; }
+  content: "";
+  z-index: 0; }
 
 footer {
   position: relative;
   border-bottom: 0.5rem solid #423CE8;
   padding-bottom: 3rem;
-  margin-top: 10rem; }
+  margin-top: 10rem;
+  z-index: 0; }
   footer .footer-container {
     z-index: 5;
     position: relative;
@@ -565,7 +567,13 @@ html, body {
   color: #2A2D3C;
   letter-spacing: 1px;
   font-family: 'Roboto', 'Noto Sans JP', sans-serif;
-  font-size: 1rem; }
+  font-size: 1rem;
+  position: relative;
+  z-index: 0; }
+
+html body main {
+  position: relative;
+  z-index: 100; }
 
 ul {
   margin: 0;
