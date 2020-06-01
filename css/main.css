@@ -342,7 +342,7 @@ section h1 {
         max-height: 100%;
         text-overflow: ellipsis;
         overflow: hidden; }
-      .article-list-page li .desc-container a {
+      .article-list-page li .desc-container .see-more {
         color: #423CE8;
         display: block;
         position: absolute;
@@ -360,6 +360,9 @@ section h1 {
     color: #2A2D3C; }
   .article-page .date {
     color: #808496; }
+  .article-page a, .article-page a:visited {
+    text-decoration: underline;
+    color: #423CE8; }
 
 .member-list-page {
   width: 85vw;
