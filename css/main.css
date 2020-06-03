@@ -363,6 +363,12 @@ section h1 {
   .article-page a, .article-page a:visited {
     text-decoration: underline;
     color: #423CE8; }
+  .article-page ol > li {
+    list-style: decimal;
+    margin-left: -1rem; }
+  .article-page ul > li {
+    list-style: disc;
+    margin-left: 2rem; }
 
 .member-list-page {
   width: 85vw;
